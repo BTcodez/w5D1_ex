@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise One</title>
+    <title>Document</title>
+    <style>
+        body {text-align: center;}
+        #myDiv {
+            margin: 3rem;
+            padding: 20px;
+            border: 2px solid gray;
+        }
+    </style>
 </head>
+
 <body>
 
-    <div id="myDiv">This is a div</div>
+    <div id="myDiv">This is a Div</div>
     <p>First paragraph.</p>
     <p>Second paragraph.</p>
 
-
     <script>
-        
-        thisDiv = document.querySelector('.myDiv');
-        para1 = document.querrySelectorAll('p[]')
+        document.getElementById("myDiv").style.backgroundColor='lightblue';
+
+        const para = document.queryCommandIndeterAll('p');
+
+
 
     </script>
 </body>
